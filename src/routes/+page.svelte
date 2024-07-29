@@ -1,3 +1,9 @@
+<script>
+  import Header from "../components/Header.svelte";
+</script>
+
+<Header />
+
 <div class="container mx-auto">
   <div class="flex justify-between mt-8 mb-1">
     <h1 class="text-3xl">Notebooks</h1>
