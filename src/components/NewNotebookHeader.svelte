@@ -1,6 +1,6 @@
 <script>
-  import { goto } from "$app/navigation";
-  import ConnectModal from "./ConnectModal.svelte";
+  import { goto } from '$app/navigation';
+  import ConnectModal from './ConnectModal.svelte';
 
   let showModal = false;
 
@@ -20,7 +20,7 @@
         <button
           type="button"
           class="flex items-center text-blue-500"
-          on:click={() => goto("/")}
+          on:click={() => goto('/')}
         >
           <span class="material-icons" style="font-size:20px;"
             >chevron_left</span
@@ -37,7 +37,7 @@
               class="text-center mr-1 material-icons"
               style="font-size:20px;">settings</span
             >
-            Connect
+            Conectar
           </button>
           <button
             type="button"
@@ -47,7 +47,7 @@
               class="text-center mr-1 material-icons"
               style="font-size:20px;">play_arrow</span
             >
-            Run All
+            Ejecutar Todo
           </button>
         </div>
       </div>
